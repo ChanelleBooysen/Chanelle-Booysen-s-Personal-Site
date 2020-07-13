@@ -13,9 +13,9 @@ h1 {
 pink code #ED21AC*/
 .top-box {
   background-color: #DAE3F3 ;
-  height: auto;
+  height: 200px;
   padding:20px;
-  width: 1330px;
+  width: 400px;
   margin: 0 auto;
   text-align: center;
 }
@@ -25,18 +25,9 @@ pink code #ED21AC*/
   height: auto;
   width: 1330px;
   padding:20px;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
-  display: block;
-}
-
-.bottom-box {
-  background-color: #43B8CC;
-  border: solid 10px;
-  height: 200px;
-  width: 200px;
-  padding:20px;
-  margin: 0 auto;
+  bottom:auto;
 }
 
 .mountain-pink {
@@ -64,9 +55,18 @@ margin: 0 auto;
 .middle-cloud {
   display: inline-block;
   margin: 0 auto;
+  position: absolute;
+  right: 200px;
+  top: 100px;
 
 }
 .p {
 display: inline-block;
 
+}
+
+.profile-image {
+  position: absolute;
+  left:100px;
+  top:30px;
 }
