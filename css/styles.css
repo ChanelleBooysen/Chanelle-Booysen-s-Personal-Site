@@ -30,6 +30,12 @@ pink code #ED21AC*/
   bottom:auto;
 }
 
+.external-links {
+position: absolute;
+  right: 200px;
+  top: 200px;
+}
+
 .mountain-pink {
         position: absolute;
         top: 50%;
