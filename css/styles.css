@@ -11,55 +11,62 @@ h1 {
 
 /*--------------------Selectors--------------------------------------
 pink code #ED21AC*/
+
 .top-box {
   background-color: #DAE3F3 ;
-  height: 200px;
-  padding:20px;
-  width: 400px;
+  height: 100px;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
 }
 
+.top-cloud {
+display:block;
+position: relative;
+top:0;
+left:80px;
+}
+
+.middle-cloud {
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+  width:25%;
+
+}
 .middle-box {
   background-color: #DAE3F3;
   height: auto;
-  width: 1330px;
-  padding:20px;
+  width: 1263.33px;
   margin: 0;
   position: relative;
   bottom:auto;
 }
 
+
+.full-image {
+  height: 600px;
+  width: 1263.33px;
+}
+
+.external-links {
+  background-color: #DAE3F3;
+  height: auto;
+  width: 200px;
+  padding:20px;
+  position: absolute;
+  right: 200px;
+  top: 250px;
+}
 .mountain-pink {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-   }
-.middle-cloud {
-margin: 0 auto;
+      }
 
-}
-.full-image {
-  height: 600px;
-  width: 1330px;
-}
-
-.mountain-pink {
-  display: block;
-  margin: auto:
-  position: relative;
-  right: 5em;
-  bottom: 4em;
-}
-.middle-cloud {
-  display: inline-block;
-  margin: 0 auto;
-  position: absolute;
-  right: 200px;
-  top: 100px;
-
-}
 .p {
 display: inline-block;
 
@@ -68,5 +75,5 @@ display: inline-block;
 .profile-image {
   position: absolute;
   left:100px;
-  top:30px;
+  top:0;
 }
