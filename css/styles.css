@@ -31,7 +31,11 @@ pink code #ED21AC*/
 }
 
 .external-links {
-position: absolute;
+  background-color: #DAE3F3;
+  height: auto;
+  width: 1330px;
+  padding:20px;
+  position: absolute;
   right: 200px;
   top: 200px;
 }
